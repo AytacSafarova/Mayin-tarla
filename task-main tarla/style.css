@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    position: absolute;
+  
+    
+    background-color: yellow;
+
+}
+.bomb{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: -3;
+}
+button{
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    z-index: 3;
+}
